@@ -1,6 +1,10 @@
 Pdftk
 =====
 
+**This gem is a fork of [Pdftk by WebKrak](https://github.com/webkrak/pdftk), modified to work with Ruby 2.3.**
+The original gem uses `win32/open3` if it detects `mingw` environment and Ruby newer than 1.9.
+Ruby 2.3 ships with open3, so this behaviour is no longer needed.
+
 Pdftk is gem for merging pdf files with pdftk library for Rails.
 
 ### Installation
